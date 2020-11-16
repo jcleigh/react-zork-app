@@ -1,17 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
+import Terminal from './components/Terminal';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          REACT-ZORK
-        </p>
-      </header>
-    </div>
-  );
-}
+const App = () =>
+    <div>
+        <Terminal />
+    </div>;
 
 export default App;

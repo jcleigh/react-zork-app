@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "private": true,
   "author": "Jordan Cleigh <cleigh.jordan@gmail.com>",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-brands-svg-icons": "^5.15.1",
+    "@fortawesome/react-fontawesome": "^0.1.12",
+    "@sanity/client": "^2.0.9",
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.1.2",
     "@testing-library/user-event": "^12.2.2",
