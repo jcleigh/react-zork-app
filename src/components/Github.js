@@ -15,6 +15,7 @@ const Github = () =>
     <a
         aria-label={'githubLink'}
         href={'https://github.com/jcleigh/react-zork-app'}
+        rel={'noreferrer'}
         target={'_blank'}
     >
         <FontAwesomeIcon
