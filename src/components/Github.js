@@ -7,7 +7,7 @@ const style = {
     fontSize: '1.5em',
     position: 'absolute',
     top: '10',
-    right: '10',
+    right: '40',
     zIndex: 1000
 };
 
