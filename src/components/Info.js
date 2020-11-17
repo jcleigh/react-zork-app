@@ -14,7 +14,7 @@ const style = {
 const Info = () =>
     <a
         aria-label={'infoLink'}
-        href={'#'}
+        href={'#info'}
     >
         <FontAwesomeIcon
             aria-label={'infoIcon'}
