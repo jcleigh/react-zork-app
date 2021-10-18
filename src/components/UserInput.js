@@ -1,4 +1,4 @@
-import React, {Fragment} from 'react';
+import React from 'react';
 
 const inputStyle = {
     backgroundColor: 'black',
@@ -20,7 +20,7 @@ const pStyle = {
 }
 
 const UserInput = () =>
-    <Fragment>
+    <>
         <p style={pStyle}>
             &gt;&nbsp;
             <input
@@ -30,6 +30,6 @@ const UserInput = () =>
                 style={inputStyle}
             />
         </p>
-    </Fragment>;
+    </>;
 
 export default UserInput;

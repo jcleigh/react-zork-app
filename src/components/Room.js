@@ -1,4 +1,4 @@
-import React, {Fragment} from 'react';
+import React from 'react';
 
 import Heading from './Heading';
 
@@ -31,7 +31,7 @@ const rooms = {
 const roomToShow = rooms.room0;
 
 const Room = ({description = '', title = ''}) =>
-    <Fragment>
+    <>
         <Heading title={roomToShow.title}/>
         <p
             aria-label={'roomDescription'}
@@ -40,13 +40,13 @@ const Room = ({description = '', title = ''}) =>
             {roomToShow.desc
                 .split('<br>')
                 .map((line, acc) =>
-                    <Fragment key={`line-${acc}`}>
+                    <div key={`line-${acc}`}>
                         {line}
                         <br key={`br-${acc}`} />
-                    </Fragment>
+                    </div>
                 )
             }
         </p>
-    </Fragment>
+    </>
 
 export default Room;
