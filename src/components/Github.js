@@ -20,6 +20,7 @@ const Github = () =>
     >
         <FontAwesomeIcon
             aria-label={'githubIcon'}
+            data-testid={'githubIcon'}
             icon={faGithub}
             style={style}
         />

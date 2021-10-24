@@ -33,7 +33,7 @@ const roomToShow = rooms.room0;
 const Room = ({description = '', title = ''}) =>
     <>
         <Heading title={roomToShow.title}/>
-        <p
+        <div
             aria-label={'roomDescription'}
             style={style}
         >
@@ -46,7 +46,7 @@ const Room = ({description = '', title = ''}) =>
                     </div>
                 )
             }
-        </p>
+        </div>
     </>
 
 export default Room;
