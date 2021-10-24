@@ -18,6 +18,7 @@ const Info = () =>
     >
         <FontAwesomeIcon
             aria-label={'infoIcon'}
+            data-testid={'infoIcon'}
             icon={faInfoCircle}
             style={style}
         />
