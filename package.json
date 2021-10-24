@@ -5,17 +5,15 @@
   "author": "Jordan Cleigh <cleigh.jordan@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.32",
-    "@fortawesome/free-brands-svg-icons": "^5.15.1",
-    "@fortawesome/free-solid-svg-icons": "^5.15.1",
-    "@fortawesome/react-fontawesome": "^0.1.12",
-    "@sanity/client": "^2.0.9",
-    "@testing-library/jest-dom": "^5.11.6",
-    "@testing-library/user-event": "^12.2.2",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-scripts": "4.0.0",
-    "web-vitals": "^0.2.4"
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-brands-svg-icons": "^5.15.4",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.16",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/user-event": "^12.8.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -42,6 +40,6 @@
     ]
   },
   "devDependencies": {
-    "@testing-library/react": "^11.1.2"
+    "@testing-library/react": "^11.2.7"
   }
 }
