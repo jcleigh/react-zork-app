@@ -4,7 +4,7 @@
   "private": true,
   "author": "Jordan Cleigh",
   "license": "MIT",
-  "homepage": "https://github.com/jcleigh/react-zork-app",
+  "repository": "github:jcleigh/react-zork-app",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
     "@fortawesome/free-brands-svg-icons": "^5.15.4",
